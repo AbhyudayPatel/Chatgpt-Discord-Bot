@@ -3,7 +3,7 @@ import os
 import openai
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
-token = "MTEzMzk3ODMzMTI0MzYxMDE1Mg.G_UO8p.-Z2oZEh8zk6Z7_H2g5XmIwb2a8Ef3vwVQxOy0U"
+token = "DISCORD_BOT_TOKEN"
 
 class MyClient(discord.Client):
 
